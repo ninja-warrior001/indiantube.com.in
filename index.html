@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Tube</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Enhanced Header -->
+    <header>
+        <div class="left-section">
+            <i class="fas fa-bars menu-icon"></i>
+            <div class="logo">
+                <i class=""></i>
+                <span>Indian Tube</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="mic-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-th"></i>
+            <i class="fas fa-bell"></i>
+            <div class="user-profile">
+                <img src="https://picsum.photos/32" alt="Profile Picture">
+            </div>
+        </div>
+    </header>
+
+    <!-- Enhanced Sidebar -->
+    <nav class="sidebar">
+        <div class="sidebar-section">
+            <div class="sidebar-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-play-circle"></i>
+                <span>Shorts</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-users"></i>
+                <span>Subscriptions</span>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Library</h3>
+            <div class="sidebar-item">
+                <i class="fas fa-history"></i>
+                <span>History</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-clock"></i>
+                <span>Watch Later</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-thumbs-up"></i>
+                <span>Liked Videos</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Enhanced Main Content -->
+    <main class="content">
+        <div class="filters">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Music</button>
+            <button class="filter-btn">Gaming</button>
+            <button class="filter-btn">Live</button>
+            <button class="filter-btn">News</button>
+            <button class="filter-btn">Sports</button>
+            <button class="filter-btn">New to You</button>
+        </div>
+
+        <div class="videos-grid">
+            <!-- Video Cards (repeated 8 times for example) -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/320/180?random=1" alt="Video Thumbnail">
+                    <span class="duration">10:15</span>
+                </div>
+                <div class="video-info">
+                    <img src="https://picsum.photos/36?random=1" alt="Channel Avatar" class="channel-avatar">
+                    <div class="video-details">
+                        <h3 class="video-title">Amazing Video Title That Might Be Long</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">
+                            <span>1.2M views</span>
+                            <span>•</span>
+                            <span>3 days ago</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat video-card div 7 more times with different random numbers for images -->
+        </div>
+    </main>
+    <script src="server.js"></script>
+</body>
+</html>
